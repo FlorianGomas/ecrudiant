@@ -22,4 +22,8 @@ public class StudentService {
 		return studentDAO.findById(id).get();
 	}
 
+	public Student saveStudent(Student newStudent) {
+		return studentDAO.save(newStudent);
+	}
+
 }
