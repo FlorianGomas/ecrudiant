@@ -3,10 +3,12 @@ package com.samawaflo.ecrudiant.model;
 import java.util.Date;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+@Entity
 @Table(name="etudiants")
 public class Student {
 
@@ -21,7 +23,7 @@ public class Student {
 	private String firstName;
 	
 	@Column(name="date_naissance")
-	private Date birthday;
+	private String birthday;
 	
 	@Column(name="entreprise")
 	private String company;
@@ -59,11 +61,11 @@ public class Student {
 		this.firstName = firstName;
 	}
 
-	public Date getBirthday() {
+	public String getBirthday() {
 		return birthday;
 	}
 
-	public void setBirthday(Date birthday) {
+	public void setBirthday(String birthday) {
 		this.birthday = birthday;
 	}
 
