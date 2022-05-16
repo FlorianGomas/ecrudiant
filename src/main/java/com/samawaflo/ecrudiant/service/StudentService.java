@@ -26,4 +26,9 @@ public class StudentService {
 		return studentDAO.save(newStudent);
 	}
 
+	public Student replaceStudent(Student newStudent, Long id) {
+		newStudent.setId(id);
+		return studentDAO.save(newStudent);
+	}
+
 }
