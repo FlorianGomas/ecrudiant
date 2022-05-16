@@ -18,4 +18,8 @@ public class StudentService {
 		return studentDAO.findAll();
 	}
 
+	public Student findStudent(long id) {
+		return studentDAO.findById(id).get();
+	}
+
 }
