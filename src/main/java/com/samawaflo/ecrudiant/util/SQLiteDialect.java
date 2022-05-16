@@ -8,6 +8,11 @@ import org.hibernate.dialect.function.SQLFunctionTemplate;
 import org.hibernate.dialect.function.VarArgsSQLFunction;
 import org.hibernate.type.StringType;
 
+/**
+ * This class is used to add an SQL dialect for SQLite in Spring Boot (who doesn't provide a straightforward way to integrate it)
+ * @author https://fullstackdeveloper.guru/2020/05/01/how-to-integrate-sqlite-database-with-spring-boot/
+ *
+ */
 public class SQLiteDialect extends Dialect {
 
 	public SQLiteDialect() {

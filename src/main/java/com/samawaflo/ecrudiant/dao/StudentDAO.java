@@ -8,6 +8,9 @@ import com.samawaflo.ecrudiant.model.Student;
 
 public interface StudentDAO extends CrudRepository<Student, Long> {
 
+	/**
+	 * Override of findAll() from the CrudRepository which normally return Iterable<Entities>
+	 */
 	@Override
 	public List<Student> findAll();
 }
