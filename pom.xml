@@ -11,7 +11,7 @@
 	<artifactId>ecrudiant</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ecrudiant</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Class project for a webservice course in the IUT informatique de Bordeaux</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
