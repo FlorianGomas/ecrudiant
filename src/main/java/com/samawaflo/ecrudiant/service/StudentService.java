@@ -15,7 +15,7 @@ public class StudentService {
 	private StudentDAO studentDAO;
 	
 	public List<Student> findAll() {
-		return studentDAO.findAll();
+		return studentDAO.findAllByOrderByLastName();
 	}
 
 	public Student findStudent(long id) {
