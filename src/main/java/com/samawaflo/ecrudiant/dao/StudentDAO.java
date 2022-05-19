@@ -13,4 +13,6 @@ public interface StudentDAO extends CrudRepository<Student, Long> {
 	 */
 	@Override
 	public List<Student> findAll();
+	
+	public List<Student> findAllByOrderByLastName();
 }
