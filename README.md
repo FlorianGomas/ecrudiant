@@ -14,7 +14,7 @@ Code de retour : 200
 
 *Format de la réponse* :
 
-![image-20220519173401652](C:\Users\fgomas\AppData\Roaming\Typora\typora-user-images\image-20220519173401652.png)
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/3znB75F/image-20220519173401652.png" alt="image-20220519173401652" border="0"></a>
 
 ### Afficher le détail d'un étudiant 
 
@@ -24,33 +24,33 @@ Code de retour : 200
 
 *Format de la réponse* :
 
-![image-20220519174113838](C:\Users\fgomas\AppData\Roaming\Typora\typora-user-images\image-20220519174113838.png)
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/Nyq4PKJ/image-20220519174113838.png" alt="image-20220519174113838" border="0"></a>
 
 ### Ajouter un étudiant 
 
 * POST (*/ecrudiant/rest/students* avec les informations dans le body)
 
-  ![image-20220519174240157](C:\Users\fgomas\AppData\Roaming\Typora\typora-user-images\image-20220519174240157.png)
+  <a href="https://imgbb.com/"><img src="https://i.ibb.co/r35GmZ0/image-20220519174240157.png" alt="image-20220519174240157" border="0"></a>
+  
+  
 
 Code de retour : 201
 
 *Format de la réponse* :
 
-![image-20220519174300876](C:\Users\fgomas\AppData\Roaming\Typora\typora-user-images\image-20220519174300876.png)
-
-
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/6J271Fp/image-20220519174300876.png" alt="image-20220519174300876" border="0"></a>
 
 ### Modifier un étudiant 
 
 * PUT (*/ecrudiant/rest/students/{id}* avec les informations dans le body)
 
-![image-20220519174446597](C:\Users\fgomas\AppData\Roaming\Typora\typora-user-images\image-20220519174446597.png)
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/J3PgMXm/image-20220519174446597.png" alt="image-20220519174446597" border="0"></a>
 
 Code de retour : 201
 
 *Format de la réponse* :
 
-![image-20220519174502441](C:\Users\fgomas\AppData\Roaming\Typora\typora-user-images\image-20220519174502441.png)
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/ZdgRV4K/image-20220519174502441.png" alt="image-20220519174502441" border="0"></a>
 
 ### Supprimer un étudiant 
 
