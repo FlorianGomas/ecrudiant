@@ -2,7 +2,21 @@
 
 Cette API permet d'accéder au CRUD (Create, Read, Delete, Update) de l'annuaire des étudiants de DAGPI de la promotion 2021-2022.
 
-Nous l'avons développé en Java avec l'utilisation du framework Spring, parfaitement adapté au développement d'API REST
+Nous l'avons développé en Java avec l'utilisation du framework Spring, parfaitement adapté au développement d'API REST.
+
+## Demarrage de l'API
+
+Deux solutions s'offrent à vous pour utiliser l'API. Vous pouvez cloner le projet back et tester les requêtes avec une application comme Postman, Insomnia core ou autres. Vous pouvez aussi utiliser notre API avec notre projet front dont vous trouverez le dépôt git à l'adresse suivant : https://github.com/FlorianGomas/ecrudiant-front .
+
+### Demarrage du back 
+
+Pour démarrer le back, une fois le dépôt cloné vous devez paramétré la "run configuration" du projet. Pour ce faire, dans votre IDE (ici Eclipse), ouvrez votre run configuration et créez un nouveau Maven Build. Vous devez ensuite selectionner le bon "Base directory" (ici le projet Ecrudiant) et entrer la commande suivante dans les Goals : *spring-boot:run*. Vous pouvez ensuite sauvez la configuration et la lancer.
+
+<a href="https://ibb.co/MpN44wr"><img src="https://i.ibb.co/2PKQQVx/install.png" alt="install" border="0"></a>
+
+### Demarrage du front
+
+Veuillez vous référer au readme du projet front.
 
 ## Utilisation de l'API:
 
